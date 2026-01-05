@@ -21,6 +21,6 @@ Students gain hands-on experience with Python and HTTP requests.
 The project strengthens ethical hacking and secure coding awareness.
 
 
-🧾Final Project Explanation
+🧾Final Project Explanation:
 
 This project presents a Python-based SQL Injection Scanner that automates vulnerability detection in web applications. It helps identify insecure input handling by testing common SQL payloads and analyzing responses. Designed for educational use, the project provides practical exposure to ethical hacking and web security fundamentals.
