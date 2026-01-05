@@ -31,3 +31,7 @@ The scanner displays whether the application is vulnerable or safe.
 It helps identify insecure input handling issues.
 This allows developers to apply proper security fixes.
 The project improves awareness of web application security.
+
+This project is intended only for educational and learning purposes.
+Do not use this tool on real websites without proper authorization.
+
