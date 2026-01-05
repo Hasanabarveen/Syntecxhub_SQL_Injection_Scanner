@@ -1,0 +1,66 @@
+# DVWA SQL Injection Testing Report
+
+ Project Title
+DVWA – SQL Injection Vulnerability Assessment
+
+ 🛠 Environment Setup
+- OS: Windows
+- Server: XAMPP (Apache + MySQL)
+- Application: Damn Vulnerable Web Application (DVWA)
+- Browser: Google Chrome
+- DVWA Security Level: Low
+
+ Objective
+To identify and exploit SQL Injection vulnerabilities in DVWA for educational purposes.
+
+
+🔍 Test Case 1: SQL Injection – User ID Input
+
+ 🔹 Input Payload
+1' OR '1'='1
+ 🔹 Result
+- Application bypassed authentication
+- Displayed multiple user records
+
+ 🔹 Vulnerability Status
+✅ SQL Injection confirmed
+
+
+ 🔍 Test Case 2: SQL Injection – UNION Based
+
+ 🔹 Payload Used
+1'UNION SELECT User,Password FROM users#
+ 🔹 Result
+- Database usernames and password hashes retrieved
+
+🔹 Vulnerability Status
+✅ High risk SQL Injection
+
+Evidence
+- Login bypass screenshot
+- SQL payload execution screenshot
+- Retrieved database records screenshot
+
+ Impact
+An attacker can:
+- Bypass authentication
+- Extract sensitive data
+- Compromise the database
+
+
+ 🛡 Mitigation Recommendations
+- Use prepared statements
+- Input validation
+- Parameterized queries
+- Least privilege database access
+
+
+ Disclaimer
+This project is strictly for educational purposes.  
+Testing was performed on a deliberately vulnerable application.
+
+---
+
+👤 Author
+Hasanabarveen J 
+Cybersecurity Student(3rd year)
