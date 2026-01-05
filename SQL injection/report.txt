@@ -1,7 +1,7 @@
 # DVWA SQL Injection Testing Report
 
  Project Title
-DVWA – SQL Injection Vulnerability Assessment
+DVWA – SQL Injection Vulnerability AssessmentG
 
  🛠 Environment Setup
 - OS: Windows
