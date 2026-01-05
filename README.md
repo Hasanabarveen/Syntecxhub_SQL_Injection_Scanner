@@ -1,26 +1,33 @@
+Project Description
 
-👉Project Architecture:
-
-The SQL Injection Scanner follows a modular and straightforward architecture.
-The user provides a target URL as input to the scanner.
-The tool injects predefined SQL payloads into request parameters.
-Responses from the web application are analyzed to detect SQL-related errors
-
-⏳Project Workflow:
-
-First, the scanner reads the target URL provided by the user.
-Next, SQL Injection payloads are appended or injected into parameters.
-The application response is checked for database error patterns.
-Finally, the scanner reports whether a potential vulnerability exists.
-
-📤Learning Outcomes:
-
-Through this project, learners understand how SQL Injection attacks work.
-It improves knowledge of web application input handling and validation.
-Students gain hands-on experience with Python and HTTP requests.
-The project strengthens ethical hacking and secure coding awareness.
+This project is a SQL Injection Scanner developed using Python.
+It is used to identify basic SQL Injection vulnerabilities in web applications.
+The project helps students understand ethical hacking concepts.
+It focuses on learning secure input handling and web security basics.
 
 
-🧾Final Project Explanation:
 
-This project presents a Python-based SQL Injection Scanner that automates vulnerability detection in web applications. It helps identify insecure input handling by testing common SQL payloads and analyzing responses. Designed for educational use, the project provides practical exposure to ethical hacking and web security fundamentals.
+Requirements Used
+
+Python is used to implement the scanner logic.
+The requests library is used to send HTTP requests to web applications.
+SQL payloads are used to test input parameters.
+These requirements help analyze application response behavior.
+
+
+
+How the Project Works
+
+The user provides a target web application URL.
+The scanner injects SQL payloads into input parameters.
+It checks the server response for SQL related errors.
+Based on the response, the vulnerability is identified.
+
+
+
+Final Output
+
+The scanner displays whether the application is vulnerable or safe.
+It helps identify insecure input handling issues.
+This allows developers to apply proper security fixes.
+The project improves awareness of web application security.
